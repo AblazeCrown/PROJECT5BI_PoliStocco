@@ -14,7 +14,26 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    var string = ""
+    var string2 = ""
+    var string3 = ""
+    var string2_1 = ""
+    var string2_2 = ""
+    var string3_1 = ""
+    var string3_2 = ""
+    @IBAction func btn(_ sender: Any) {
+        string = txt.text!
+    }
+    
+    var stringaNumeriBinari = ""
+    var risultato = 0
+    func fromStringBinToInt()
+    {
+        
+        let binary = stringaNumeriBinari
+        if let number = Int(binary, radix: 2) {
+            risultato = number
+        }
 
 }
 
