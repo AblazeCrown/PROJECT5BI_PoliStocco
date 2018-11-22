@@ -9,6 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    
+    
+    var stringaNumeriBinari = ""
+    var risultato = 0
+    func fromStringBinToInt()
+    {
+        
+        let binary = stringaNumeriBinari
+        if let number = Int(binary, radix: 2) {
+            risultato = number
+        }
+        
+        
+    }
 
     @IBOutlet var label: UILabel!
     @IBOutlet var txt: UITextField!
