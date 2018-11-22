@@ -9,12 +9,27 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    
+    
+    var stringaNumeriBinari = ""
+    var risultato = 0
+    func fromStringBinToInt()
+    {
+        
+        let binary = stringaNumeriBinari
+        if let number = Int(binary, radix: 2) {
+            risultato = number
+        }
+        
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    
+    
 }
 
