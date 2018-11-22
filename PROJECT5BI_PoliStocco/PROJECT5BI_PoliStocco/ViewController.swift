@@ -27,15 +27,6 @@ class ViewController: UIViewController {
         string = txt.text!
     }
     
-    var stringaNumeriBinari = ""
-    var risultato = 0
-    func fromStringBinToInt()
-    {
-        
-        let binary = stringaNumeriBinari
-        if let number = Int(binary, radix: 2) {
-            risultato = number
-        }
 
 }
 }
