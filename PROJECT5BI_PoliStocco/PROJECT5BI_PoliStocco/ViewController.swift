@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var label: UILabel!
+    @IBOutlet var txt: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -35,5 +37,6 @@ class ViewController: UIViewController {
             risultato = number
         }
 
+}
 }
 
